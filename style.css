@@ -1,0 +1,94 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; 
+    color: #333;
+    line-height: 1.6;
+}
+
+#page-header {
+    background-color: #1a1a2e;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    border-bottom: 8px solid #FFD700; 
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 5px;
+}
+
+.tagline {
+    font-size: 1.2em;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+h2 {
+    color: #1a1a2e;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#centered-image-container {
+   
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.profile-image {
+    width: 250px;
+    height: auto;
+    border-radius: 50%; 
+    border: 5px solid #FFD700;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    padding: 0;
+    margin-top: 20px;
+}
+
+ul li {
+    background-color: #e3f2fd; 
+    margin: 8px 0;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 5px solid #1a1a2e;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.gallery-image {
+    width: 48%; 
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#page-footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: #ccc;
+    margin-top: 20px;
+    font-size: 0.8em;
+}
